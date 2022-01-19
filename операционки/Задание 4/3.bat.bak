@@ -1,0 +1,6 @@
+@echo off
+TASKLIST 
+echo Введите PID процесса
+set /p a=
+taskkill /pid %a%
+pause

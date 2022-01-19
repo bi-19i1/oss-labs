@@ -1,0 +1,7 @@
+@echo off
+
+SHUTDOWN -r -f -t 120 -c "Восстание Мошин"
+pause
+echo Отмена восстания
+SHUTDOWN -a
+pause
